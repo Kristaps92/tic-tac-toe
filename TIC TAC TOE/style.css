@@ -1,3 +1,4 @@
+
 .board {
     width: 60px;
     height: 60px;
@@ -5,4 +6,8 @@
     font-size: 18pt;
     font-weight: bold;
     color: lime;
+}
+
+a {
+    text-decoration: none;
 }

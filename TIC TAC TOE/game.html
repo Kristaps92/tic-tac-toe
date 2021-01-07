@@ -8,26 +8,27 @@
     <title>Document</title>
 </head>
 <body onload="startGame();">
-    <h1>My Tic-Tac-Toe game!</h1>
-
-    <div id="messages">Messages will bw shown here.</div>
-
+    <h1> My Tic-Tac-Toe game!</h1>
+    
+    <div id="message">messages will go here</div>
+    
     <table border="1">
         <tr>
-            <td class="board" onclick="nextMove(this)"></td>
-            <td class="board" onclick="nextMove(this)"></td>
-            <td class="board" onclick="nextMove(this)"></td>
+            <td id="c1" class="board" onclick="nextMove(this);"></td>
+            <td id="c2" class="board" onclick="nextMove(this);"></td>
+            <td id="c3" class="board" onclick="nextMove(this);"></td>
         </tr>
         <tr>
-            <td class="board" onclick="nextMove(this)"></td>
-            <td class="board" onclick="nextMove(this)"></td>
-            <td class="board" onclick="nextMove(this)"></td>
+            <td id="c4" class="board" onclick="nextMove(this);"></td>
+            <td id="c5" class="board" onclick="nextMove(this);"></td>
+            <td id="c6" class="board" onclick="nextMove(this);"></td>
         </tr>
         <tr>
-            <td class="board" onclick="nextMove(this)"></td>
-            <td class="board" onclick="nextMove(this)"></td>
-            <td class="board" onclick="nextMove(this)"></td>
+            <td id="c7" class="board" onclick="nextMove(this);"></td>
+            <td id="c8" class="board" onclick="nextMove(this);"></td>
+            <td id="c9" class="board" onclick="nextMove(this);"></td>
         </tr>
     </table>
+    <a href="javascript:startGame();">Play again</a>
 </body>
 </html>
